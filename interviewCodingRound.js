@@ -1,4 +1,4 @@
-// Question: Implement a function to reverse a string without using the built-in reverse() method. 
+// Question 1: Implement a function to reverse a string without using the built-in reverse() method.
 
 // function reverseString(str) {
 //     let reversedStr = '';
@@ -13,7 +13,7 @@
 // const reversedString = reverseString(originalString);
 // console.log(reversedString);
 
-// Given an array of numbers, write a function to find the largest and smallest numbers in the array. 
+// Question 2: Given an array of numbers, write a function to find the largest and smallest numbers in the array.
 // in-built function
 
 // let arr = [2, 3, 5, 67, 6, 3, 12, 76, 6887, 43];
@@ -47,12 +47,13 @@
 //     }
 //     return { min, max };
 // }
-
 // const { min, max } = findMinMax(arr);
 // console.log("Minimum number : ", min);
 // console.log("Maximum number : ", max);
 
-// Implement a function to find the sum of all the numbers in an array.
+
+
+// Question 3: Implement a function to find the sum of all the numbers in an array.
 // function Sum(number) {
 //     let sum = 0;
 //     for (let i = 0; i < number.length; i++) {
@@ -64,8 +65,7 @@
 // const sum = Sum(number);
 // console.log(Sum(number));
 
-
-//write a program to find the second most occurring character in the given string "assassin" in js.
+// Question 4: Write a program to find the second most occurring character in the given string "assassin" in js.
 // function findSecondMostOccurringChar(str) {
 // Create a character count object
 //     const charCount = {};
@@ -97,68 +97,3 @@
 //     console.log("No second most occurring character found.");
 // }
 
-// var a = 6; 
-// function test(){
-//     var a  = 7;
-//     function again(){
-//         var a = 8;
-//         alert(a);
-//     }
-//     again();
-//     alert(a);
-// }
-
-// test();
-// alert(a);
-
-
-// var x = 0;
-// function foo() {
-//     x++;
-//     this.x = x;
-//     return foo;
-// }
-// var bar = new new foo;
-// console.log(bar.x);
-
-// var arr = [10, 1, 2, 3].shift()
-// console.log("Shifted value:" + arr);
-
-// const o = {name: "alex", hobbies: ["cricket", "music"]};
-// Object.freeze(o);
-// o.hobbies[1] = "dance";
-// console.log(o.hobbies)
-
-
-// ques
-const arr = ["hello", 1, "Hello"]
-arr.sort()
-console.log(arr)
-
-
-// ques
-// console.log(3 === 3 === 3);
-
-
-// // ques
-// (function (x) {
-//     return (function (y) {
-//         console.log(x)
-//     })(2)
-// })(1);
-
-
-// // ques
-// function foo1()
-// {
-// return {
-// bar: "hello"
-// };
-// }
-// function foo2()
-// {
-// return
-// {
-// bar: "hello"
-// };
-// }

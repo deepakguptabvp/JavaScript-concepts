@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "nodemon": "^3.0.3"
-  }
+  },
+  "scripts": {
+    "start": "index.html"
+  },
+  "name": "js-react-interview-ques",
+  "version": "1.0.0",
+  "main": "closure.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
