@@ -51,8 +51,6 @@
 // console.log("Minimum number : ", min);
 // console.log("Maximum number : ", max);
 
-
-
 // Question 3: Implement a function to find the sum of all the numbers in an array.
 // function Sum(number) {
 //     let sum = 0;
@@ -97,3 +95,77 @@
 //     console.log("No second most occurring character found.");
 // }
 
+// Ques 4 : Find the character count of each alphabet.
+// const str = "No second most occurring character found";
+// const obj = {};
+// for (let x of str) {
+//   if (obj[x]) {
+//     obj[x] += 1;
+//   } else {
+//     obj[x] = 1;
+//   }
+// }
+// console.log(obj);
+
+// Ques5: write the output
+// console.log("2" + 1 + 1); //211
+// console.log(2 + 1 + "1"); // 31
+
+// Ques6 : Write max number in an array?
+// const arr = [24, 524, 356, 12, 45678, 123, 4, 89, 23];
+// const maxNumber = () => {
+//   let max = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// };
+// const number = maxNumber();
+// console.log(number);
+
+// Ques 7: JavaScript function to check if a given string is a palindrome
+// const str = "AMA";
+// const isPalindrome = (str) => {
+//   let newStr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newStr += str[i];
+//   }
+//   if (newStr === str) {
+//     console.log("String is palindrome");
+//   } else {
+//     console.log("String is not palindrome");
+//   }
+//   return newStr;
+// };
+// console.log(isPalindrome(str));
+
+// Ques8: Reverse a string
+// const str = "I am Deepak Gupta";
+// function revString(str) {
+//   let newStr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newStr += str[i];
+//   }
+
+//   return newStr;
+// }
+// console.log(revString(str));
+
+// Ques 9: Output based question..
+// function abc() {
+//   console.log(abc.xyz);
+// }
+// abc();
+// abc.xyz = 400;
+// abc.xyz = 200;
+// abc();
+
+// Ques 10: Output based ques.
+var num = 100;
+function confuse() {
+  console.log(num);
+  let num = 500;
+}
+confuse();
